@@ -1,6 +1,14 @@
 .searchbarContainer {
-  display: flex;
-  justify-content: space-between;
+  @media only screen and (max-width: 1049px) {
+    & {
+      max-width: inherit;
+    }
+  }
+
+  display: grid;
+  grid-template-columns: 1fr 95px;
+  grid-template-rows: 52px;
+  // justify-content: space-between;
   background: var(--white);
   border-radius: 3px;
   width: 100%;
@@ -10,7 +18,7 @@
     padding: 17px 0 17px 20px;
     border: none;
     width: 100%;
-    min-width: 400px;
+    // min-width: 400px;
     font-size: 0.875rem;
     font-style: italic;
     line-height: 1rem;
