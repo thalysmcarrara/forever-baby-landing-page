@@ -1,9 +1,31 @@
 .header {
+  @media only screen and (max-width: 1049px) {
+    max-height: 68px;
+    .logo {
+      width: 84px;
+      height: 45px;
+    }
+
+    .text {
+      display: none;
+    }
+
+    padding: 15px 20px 8px 12px;
+  }
+
   width: 100%;
   padding: 29px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: relative;
+
+  .menuContainer {
+    display: flex;
+    gap: 12px;
+    height: 100%;
+    align-items: center;
+  } 
 
   .userContent {
     display: flex;

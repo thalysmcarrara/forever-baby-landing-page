@@ -1,18 +1,26 @@
 import { useState } from 'react';
 import './style.scss';
 
-export default function HamburguerButton() {
-  const [status, setStatus] = useState('open');
+interface HamburguerButtonProps {
+  menuStatus: string;
+  setMenuStatus: (status: string) => void;
+}
+
+export default function HamburguerButton({
+  menuStatus,
+  setMenuStatus,
+}: HamburguerButtonProps) {
+  // const [status, setStatus] = useState('open');
   return (
     <section className="container">
       <button
         type="button"
         className="hamburguer"
-        onClick={() => setStatus(status === 'open' ? 'close' : 'open')}
+        onClick={() => setMenuStatus(menuStatus === 'open' ? 'close' : 'open')}
       >
-        <span className={`line line-1 ${status}`} />
-        <span className={`line line-2 ${status}`} />
-        <span className={`line line-3 ${status}`} />
+        <span className={`line line-1 ${menuStatus}`} />
+        <span className={`line line-2 ${menuStatus}`} />
+        <span className={`line line-3 ${menuStatus}`} />
       </button>
     </section>
   );
