@@ -1,0 +1,43 @@
+.header {
+  width: 100%;
+  padding: 29px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .userContent {
+    display: flex;
+    gap: 1.5rem;
+    .link {
+      cursor: auto;
+      background: transparent;
+      border: none;
+
+      .content {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+        .circle {
+          cursor: pointer;
+          background: var(--secondary);
+          border-radius: 50%;
+          width: 42px;
+          height: 41px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+      }
+
+      span {
+        cursor: pointer;
+        font-size: 10px;
+        font-weight: 700;
+        line-height: 12px;
+        text-align: left;
+        color: var(--white);
+      }
+    }
+  }
+}
