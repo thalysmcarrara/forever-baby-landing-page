@@ -3,6 +3,7 @@
     grid-template-columns: 1fr;
     grid-template-rows: repeat(6, 50px);
     position: absolute;
+    z-index: 1;
     width: 100vw;
     left: 0;
     top: 68px;

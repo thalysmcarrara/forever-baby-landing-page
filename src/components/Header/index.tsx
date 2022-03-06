@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
 import { useMediaQuery } from '../../hooks';
-import { queries } from '../../styles/queries';
+import { queries } from '../../utils/queries';
 import SearchBar from '../SearchBar';
 import HamburguerButton from './HamburguerButton';
 import Menu from './menu';
