@@ -6,21 +6,6 @@ import style from './style.module.scss';
 
 /* eslint-disable react/prefer-stateless-function, react/jsx-props-no-spreading */
 
-const TabletSizeSettings = {
-  breakpoint: 1049,
-  settings: {
-    slidesToShow: 3,
-    className: 'center',
-    centerMode: true,
-    centerPadding: '60px',
-    slidesToScroll: 1,
-    infinite: true,
-    dots: true,
-    arrows: false,
-    swipe: true,
-  },
-};
-
 const settings = {
   dots: true,
   infinite: true,
