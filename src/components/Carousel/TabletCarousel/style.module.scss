@@ -1,17 +1,17 @@
 .sliderContainer {
   @media only screen and (max-width: 1049px) {
-    margin-top: 1.5rem;
+    margin-top: 136px;
   }
 
   @media only screen and (max-width: 850px) and (min-width: 541px){
-    margin-top: 1.5rem;
+    margin-top: 136px;
     max-height: 300px;
     .link {
       width: 100px;
     }
   }
   @media only screen and (max-width: 540px){
-    margin-top: 1.5rem;
+    margin-top: 136px;
     max-height: 300px;
     .link {
       .image {

@@ -17,6 +17,10 @@ function App() {
       {isDesktop && <DesktopCarousel />}
       {(isTablet || isMobile) && <TabletCarousel />}
       <Card />
+      <Card />
+      <Card />
+      <Card />
+      <Card />
       <ToastContainer autoClose={3000} />
     </div>
   );
