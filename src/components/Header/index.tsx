@@ -50,6 +50,7 @@ export default function Header() {
         {(isTablet || isMobile) && menuStatus === 'open' && <Menu />}
       </header>
       {(isTablet || isMobile) && <SearchBar />}
+      {isDesktop && <Menu />}
     </>
   );
 }
