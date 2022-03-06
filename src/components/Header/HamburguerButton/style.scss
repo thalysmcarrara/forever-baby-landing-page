@@ -15,17 +15,18 @@
 }
 
 .line {
-  background: black;
+  background: var(--white);
   width: 27px;
   height: 5px;
   position: absolute;
   left: 0;
-  transition: all 0.5s;
+  transition: all 0.4s;
 
   &.line-1 {
     top: 0;
     &.open {
-      transform: rotate(-45deg) translateY(11px);
+      transform: rotate(-45deg);
+      top: 8px;
     }
   }
   &.line-2 {
@@ -39,7 +40,8 @@
     top: 16px;
 
     &.open {
-      transform: rotate(45deg) translateY(-11px);
+      transform: rotate(45deg);
+      top: 8px;
     }
   }
 }
