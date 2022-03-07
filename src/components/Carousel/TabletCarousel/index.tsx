@@ -13,17 +13,14 @@ const settings = {
   autoplay: true,
   speed: 500,
   slidesToScroll: 1,
-  slidesToShow: 3,
-  className: 'center',
-  centerMode: true,
-  centerPadding: '60px',
+  slidesToShow: 1,
   arrows: false,
   swipe: true,
   responsive: [
     {
       breakpoint: 800,
       settings: {
-        slidesToShow: 2,
+        slidesToShow: 1,
         slidesToScroll: 1,
       },
     },
