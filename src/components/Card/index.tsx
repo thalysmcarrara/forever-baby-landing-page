@@ -4,8 +4,19 @@ import { useMediaQuery } from '../../hooks';
 import { queries } from '../../utils/queries';
 import style from './style.module.scss';
 
-export default function Card() {
-  const value = 99.99;
+type Product = {
+  id: number;
+  image: string;
+  name: string;
+  price: number;
+};
+
+interface CardProps {
+  product: Product;
+}
+
+export default function Card({ product }: CardProps) {
+  const { image, name, price } = product;
   const isDesktop = useMediaQuery(queries.lg);
 
   const handleClick = () => {
@@ -16,19 +27,16 @@ export default function Card() {
   return (
     <div className={style.card}>
       <a className={style.imageLink} href="/">
-        <img
-          className={style.image}
-          src="https://foreverliss.vteximg.com.br/arquivos/ids/161317-240-240/mascara-cresce-cabelo-forever-liss-250g.jpg?v=637586673109200000"
-          alt=""
-        />
+        <img className={style.image} src={image} alt={name} />
       </a>
-
-      <a className={style.titleLink} href="/">
-        <p className={style.title}>Mascara cresce cabelo</p>
-      </a>
+      <div className={style.titleContainer}>
+        <a className={style.titleLink} href="/">
+          <p className={style.title}>{name}</p>
+        </a>
+      </div>
 
       <span className={style.price}>
-        {value.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}
+        {price.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}
       </span>
 
       <div className={style.ratingsContainer}>

@@ -4,10 +4,9 @@
   flex-direction: column;
   background: var(--white);
   border-bottom: 3px solid var(--secondary);
-  box-shadow:  -11px 11px 22px rgba(82, 79, 75, 0.2),
-              11px -11px 22px rgba(82, 79, 75, 0.2);
-
-  // develop
+  box-shadow:  -6px 6px 9px 1px rgba(82, 79, 75, 0.2),
+              6px -6px 9px 1px rgba(82, 79, 75, 0.2);
+  min-height: 417px;
   margin: 2rem auto 2rem auto;
 
   .imageLink {
@@ -22,17 +21,23 @@
     }
   }
 
-  .titleLink {
-    display: block;
-    background: transparent;
+  .titleContainer {
+    width: 100%;
+    min-height: 48px;
     margin-top: 1.25rem;
-    .title {
-      margin-left: 0.875rem;
-      font-size: 0.875rem;
-      font-weight: 700;
-      line-height: 16px;
-      text-align: left;
-      color: var(--font);
+
+    .titleLink {
+      display: block;
+      background: transparent;
+
+      .title {
+        margin: 0 0.875rem;
+        font-size: 0.875rem;
+        font-weight: 700;
+        line-height: 16px;
+        text-align: left;
+        color: var(--font);
+      }
     }
   }
 
@@ -84,8 +89,12 @@
     }
   }
 
-  @media only screen and (min-width: 290px) and (max-width: 1049px) {
+  @media only screen and (max-width: 1049px) {
     width: 190px;
+
+    .titleContainer {
+      min-height: 64px;
+    }
 
     .buttonAddToCart {
       justify-content: left;
@@ -100,5 +109,24 @@
         max-width: 100px;
       }
     }
+  }
+
+  @media only screen and (max-width: 425px) {
+    width: 256px;
+
+    .buttonAddToCart {
+      justify-content: center;
+      gap: 10px;
+
+      img {
+        margin-left: 0;
+      }
+
+      span {
+        max-width: none;
+      }
+    }
+
+    margin: 2rem auto 0.5rem auto;
   }
 }
