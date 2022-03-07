@@ -9,10 +9,9 @@ import styles from './styles.module.scss';
 
 export default function Header() {
   const isDesktop = useMediaQuery(queries.lg);
-  const isTablet = useMediaQuery(queries.md);
-  const isMobile = useMediaQuery(queries.sm);
 
   const [menuStatus, setMenuStatus] = useState('close');
+
   return (
     <>
       <header className={styles.header}>
@@ -47,9 +46,12 @@ export default function Header() {
             <span className={styles.text}>CARRINHO</span>
           </a>
         </div>
-        {(isTablet || isMobile) && menuStatus === 'open' && <Menu />}
+
+        {!isDesktop && menuStatus === 'open' && <Menu />}
       </header>
-      {(isTablet || isMobile) && <SearchBar />}
+
+      {!isDesktop && <SearchBar />}
+      {isDesktop && <Menu />}
     </>
   );
 }
