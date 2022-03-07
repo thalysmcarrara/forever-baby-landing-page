@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "image": "https://foreverliss.vteximg.com.br/arquivos/ids/162492-240-240/Cacheadinho_kit.jpg?v=637693123673970000",
+    "name": "Kit Shampoo e Condicionador Infantil para Cabelos Cacheados Forever Kids",
+    "price": 25.19
+  },
+  {
+    "id": 2,
+    "image": "https://foreverliss.vteximg.com.br/arquivos/ids/162495-240-240/Lisinhos_kit.jpg?v=637693123913570000",
+    "name": "Kit Shampoo e Condicionador Infantil Cabelos Lisos Forever Kids",
+    "price": 25.19
+  },
+  {
+    "id": 3,
+    "image": "https://foreverliss.vteximg.com.br/arquivos/ids/164141-240-240/Cacheadinho_creme-de-pentear.jpg?v=637811452558630000",
+    "name": "Creme de Pentear Infantil Cachinhos Forever Kids 200g",
+    "price": 17.90
+  },
+  {
+    "id": 4,
+    "image": "https://foreverliss.vteximg.com.br/arquivos/ids/164147-240-240/Creme-de-pentear_kit-lisinhos.jpg?v=637811505502870000",
+    "name": "Kit Completo Infantil para Cabelos Lisos Forever Kids",
+    "price": 46.90
+  },
+  {
+    "id": 5,
+    "image": "https://foreverliss.vteximg.com.br/arquivos/ids/162494-240-240/Combo_2Cachedinhos.jpg?v=637693123817430000",
+    "name": "Combo 2 Shampoos e Condicionadores Infantis Cachinhos Forever Kids",
+    "price": 62.01
+  }, 
+  {
+    "id": 6,
+    "image": "https://foreverliss.vteximg.com.br/arquivos/ids/162540-240-240/Linha-kids-kits.jpg?v=637698341649730000",
+    "name": "Kit Shampoo e Condicionador Infantil Cabelos Lisos e Cacheados Forever Kids",
+    "price": 49.49
+  },
+  {
+    "id": 7,
+    "image": "https://foreverliss.vteximg.com.br/arquivos/ids/162497-240-240/Cacheadinho_condicionador.jpg?v=637693125136800000",
+    "name": "Condicionador Infantil Cachinhos Forever Kids 200g",
+    "price": 18.90
+  },
+  {
+    "id": 8,
+    "image": "https://foreverliss.vteximg.com.br/arquivos/ids/164145-240-240/Creme-de-pentear_kit.jpg?v=637811501865700000",
+    "name": "Kit Creme de Pentear Infantil Cabelos Lisos e Cacheados Forever Kids",
+    "price": 32.90
+  },
+  {
+    "id": 9,
+    "image": "https://foreverliss.vteximg.com.br/arquivos/ids/162491-240-240/Combo_2Lisinhos.jpg?v=637693123608100000",
+    "name": "Combo 2 Shampoos e Condicionadores Infantis Lisinhos Forever Kids",
+    "price": 62.01
+  },
+  {
+    "id": 10,
+    "image": "https://foreverliss.vteximg.com.br/arquivos/ids/162499-240-240/Lisinho_condicionador.jpg?v=637693125264430000",
+    "name": "Condicionador Infantil Lisinhos Forever Kids 200g",
+    "price": 18.90
+  }
+]
