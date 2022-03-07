@@ -6,6 +6,8 @@ import {
   TabletCarousel,
   Highlights,
   Newsletter,
+  Footer,
+  FooterInfo,
 } from './components';
 import { useMediaQuery } from './hooks';
 import { queries } from './utils/queries';
@@ -27,6 +29,8 @@ function App() {
       <Highlights />
       <Highlights />
       <Newsletter />
+      <Footer />
+      <FooterInfo />
       <ToastContainer autoClose={3000} />
     </div>
   );
