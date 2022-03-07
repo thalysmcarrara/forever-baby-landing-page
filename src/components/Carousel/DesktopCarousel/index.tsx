@@ -9,7 +9,7 @@ import style from './style.module.scss';
 const settings = {
   dots: true,
   infinite: true,
-  autoplay: true,
+  // autoplay: true,
   autoplaySpeed: 4000,
   swipe: false,
   speed: 500,
