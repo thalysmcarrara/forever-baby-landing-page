@@ -7,6 +7,8 @@ import style from './style.module.scss';
 
 const DUPLICATE_DATA = 'dados duplicados. e-mail já existe na base de dados.';
 
+/* eslint-disable @typescript-eslint/no-explicit-any */
+
 export default function EmailInput() {
   const isDesktop = useMediaQuery(queries.lg);
 
