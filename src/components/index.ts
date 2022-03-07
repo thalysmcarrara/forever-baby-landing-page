@@ -2,6 +2,7 @@ import Card from './Card';
 import DesktopCarousel from './Carousel/DesktopCarousel';
 import TabletCarousel from './Carousel/TabletCarousel';
 import Footer from './Footer';
+import FooterInfo from './FooterInfo';
 import Header from './Header';
 import Highlights from './Highlights';
 import Newsletter from './Newsletter';
@@ -16,4 +17,5 @@ export {
   Highlights,
   Newsletter,
   Footer,
+  FooterInfo,
 };
