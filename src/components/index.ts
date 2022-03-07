@@ -1,6 +1,7 @@
 import Card from './Card';
 import DesktopCarousel from './Carousel/DesktopCarousel';
 import TabletCarousel from './Carousel/TabletCarousel';
+import Footer from './Footer';
 import Header from './Header';
 import Highlights from './Highlights';
 import Newsletter from './Newsletter';
@@ -14,4 +15,5 @@ export {
   Card,
   Highlights,
   Newsletter,
+  Footer,
 };
