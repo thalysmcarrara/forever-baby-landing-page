@@ -5,6 +5,7 @@ import products from '../../services/data/products.json';
 import { Card } from '../index';
 import settings from './settings';
 import style from './style.module.scss';
+import './slick.scss';
 
 /* eslint-disable react/prefer-stateless-function, react/jsx-props-no-spreading */
 

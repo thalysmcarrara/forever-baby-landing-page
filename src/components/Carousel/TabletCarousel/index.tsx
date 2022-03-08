@@ -3,11 +3,13 @@ import Slider from 'react-slick';
 
 import getBanners from '../../../services/getBanners';
 import style from './style.module.scss';
+import './slick.scss';
 
 /* eslint-disable react/prefer-stateless-function, react/jsx-props-no-spreading */
 
 const settings = {
   dots: true,
+  dotsClass: 'button__bar',
   infinite: true,
   autoplaySpeed: 3000,
   autoplay: true,
