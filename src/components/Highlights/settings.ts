@@ -1,5 +1,6 @@
 export default {
-  dots: false,
+  dots: true,
+  dotsClass: 'button__bar',
   arrows: false,
   infinite: true,
   speed: 500,
@@ -41,7 +42,6 @@ export default {
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1,
-        dots: true,
       },
     },
   ],

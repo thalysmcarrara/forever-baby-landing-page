@@ -1,0 +1,33 @@
+.button__bar {
+  padding: 0;
+  text-align: center;
+}
+
+.button__bar li {
+  list-style: none;
+  cursor: pointer;
+  display: inline-block;
+  margin: 0 5px;
+  padding: 0;
+}
+
+.button__bar li button {
+  border: none;
+  background: var(--white);
+  color: transparent;
+  cursor: pointer;
+  display: block;
+  height: 6px;
+  width: 6px;
+  border-radius: 50%;
+}
+
+.button__bar li.slick-active button {
+  background-color: var(--font);
+}
+
+.button__bar li button:hover,
+.button__bar li button:focus {
+  background: var(--font);
+  outline: 0;
+}
